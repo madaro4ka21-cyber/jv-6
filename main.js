@@ -17,19 +17,19 @@ startCountdown(7);
 
 
 
-function typeText(text) {
-  let index = 0;
+// function typeText(text) {
+//   let index = 0;
 
-  function printNextChar() {
-    if (index < text.length) {
-      console.log(text[index]);
-      index++;
-      setTimeout(printNextChar, 200);
-    }
-  }
+//   function printNextChar() {
+//     if (index < text.length) {
+//       console.log(text[index]);
+//       index++;
+//       setTimeout(printNextChar, 200);
+//     }
+//   }
 
-  printNextChar();
-}
+//   printNextChar();
+// }
 
-typeText("Привет");
+// typeText("Привет");
 
